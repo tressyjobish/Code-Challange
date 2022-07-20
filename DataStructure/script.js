@@ -39,3 +39,22 @@ console.log(day1.wolf);
 let objectA={ a:1,b:2};
 Object.assign(objectA, {b:3,c:4});
 console.log(objectA);
+
+let a = 0;
+function foo() {
+  a = a + 1;
+  if (a <= 5) {
+    console.log("foo");
+    koo();
+  }
+}
+let b = 0;
+function koo() {
+  b = b + 1;
+  if (b <= 5) {
+    console.log("koo");
+    foo();
+  }
+}
+
+foo();
