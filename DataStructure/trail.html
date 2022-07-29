@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        let a = 0;
+function f(){
+    if(a <= 10){
+  a = a + 1;
+  
+  document.write("recured");
+  f()
+}
+
+} 
+f();
+</script>
+</body>
+</html>
+
+let a = 0;
+function foo(){
+    a = a + 1;
+    if(a < =5){
+        console.log("foo");
+        koo();
+    }
+}
+let b=0;
+function koo(){
+    b = b+1;
+    if( b< = 5);{
+        console.log("koo");
+        foo();
+    }
+}
+
+
+let x=1;
+x=-x;
+alert (x);
+let x=1 ,y=3;
+alert (y -x );
+
+alert (5 % 2);
+alert (8 % 3);
+let s= "my" + "string";
+alert (s); 
+
+let a=1;
+let b=2;
+
+let c =3 - (a=b+1);
+
+alert (a);
+alert (c);
